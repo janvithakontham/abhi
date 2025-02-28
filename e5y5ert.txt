@@ -1,0 +1,25 @@
+<!DOCTYPE emials[
+<!ELEMENT emails (mail+)>	
+<!ELEMENT mail (from, to, body,header)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>	
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT header (#PCDATA)>
+]>	
+<emails>
+<mail>
+<header>this is header data
+</header>
+<from>iamsaisamhithreddy@gmail.com</from>
+<to>b211746@rgukt.ac.in</to>
+<body>How are you..?
+</body>
+</mail>
+<mail>
+<header>this is header data
+</header>
+<from>b211746@rgukt.ac.in </from>
+<to>iamsaisamhithreddy@gmail.com</to>
+<body>I am fine</body>
+</mail>  
+</emails>
